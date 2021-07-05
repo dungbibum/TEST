@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: LocalPool
+  name: LocalPool
 
 steps:
 - script: echo Hello, world!
